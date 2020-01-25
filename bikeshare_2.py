@@ -35,6 +35,7 @@ def get_filters():
         if month in m:
             break 
         print ('Invalid Month')
+        print('--------------------')
 
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
